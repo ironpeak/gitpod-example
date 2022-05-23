@@ -1,11 +1,1 @@
-brotlipy
-decorator
-flasgger
-Flask
-gevent
-gunicorn
-MarkupSafe==2.0.1
-meinheld
-pyyaml
-six
-werkzeug==0.14.1
+Flask==2.1.2 
