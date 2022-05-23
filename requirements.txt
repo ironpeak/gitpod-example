@@ -4,7 +4,7 @@ brotlipy
 gevent
 Flask
 meinheld
-werkzeug==">=0.14.1"
+werkzeug==0.16.1
 six
 flasgger
 pyyaml
