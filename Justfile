@@ -1,2 +1,4 @@
 start:
-    python main.py
+    #!/bin/bash
+    export PYTHONPATH=$(pwd)
+    flask run
