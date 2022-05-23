@@ -4,13 +4,14 @@ image:
 vscode:
   extensions:
     - ms-azuretools.vscode-docker
+    - ms-python.python
     - redhat.vscode-yaml
     - skellock.just
 
 tasks:
   - init: |
-      pip3 install
+      pip3 install -r requirements.txt
 
 ports:
-  - port: 8080
+  - port: 5000
     onOpen: open-browser
