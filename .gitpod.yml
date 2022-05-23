@@ -1,0 +1,16 @@
+image:
+  file: .gitpod/Dockerfile
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
+    - redhat.vscode-yaml
+    - skellock.just
+
+tasks:
+  - init: |
+      pip3 install
+
+ports:
+  - port: 8080
+    onOpen: open-browser
